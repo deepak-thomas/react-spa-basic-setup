@@ -2,10 +2,10 @@ import './App.css';
 import { Route, Switch } from 'react-router';
 import { useSessionContext } from './contexts/SessionContext';
 import ProtectedRoute, { ProtectedRouteProps } from './components/ProtectedRoute';
-import Homepage from './containers/Homepage';
-import Dashboard from './containers/Dashboard';
-import Protected from './containers/Protected';
-import Login from './containers/Login';
+import Homepage from './containers/HomePage/Homepage';
+import Dashboard from './containers/Dashboard/Dashboard';
+import Protected from './containers/Core/Protected';
+import Login from './containers/Login/Login';
 
 function App() {
   const [sessionContext, updateSessionContext] = useSessionContext();

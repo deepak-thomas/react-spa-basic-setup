@@ -1,5 +1,5 @@
 import { useHistory } from "react-router";
-import { useSessionContext } from "../contexts/SessionContext";
+import { useSessionContext } from "../../contexts/SessionContext";
 
 export default function Login() {
   const [session, setSession] = useSessionContext();
