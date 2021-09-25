@@ -9,6 +9,7 @@ This project is a basic scaffolding for getting started with a React js applicat
 * node-sass
 * typescript
 * react-redux
+* axios
 
 ## Available Scripts
 
